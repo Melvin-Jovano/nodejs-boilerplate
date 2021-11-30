@@ -1,12 +1,12 @@
 ### Folder Structure
 src<br/>
-└─── app.js&ensp;&ensp;# Entry point for application<br/>
-└─── config&ensp;&ensp;# Application environment variables and secrets<br/>
-└─── controllers&ensp;&ensp;# Express controllers for routes, respond to client requests, call services<br/>
-└─── loaders&ensp;&ensp;# Handles all startup processes<br/>
-└─── middlewares&ensp;&ensp;# Operations that check or manipulate request prior to controller utilizing<br/>
-└─── models&ensp;&ensp;# Database models<br/>
-└─── routes&ensp;&ensp;# Express routes that define API structure<br/>
-└─── services&ensp;&ensp;# Encapsulates all business logic<br/>
-└─── test&ensp;&ensp;# Tests go here<br/>
-└─── utils&ensp;&ensp;# App utilities
+└─── app.js&emsp;&emsp;&emsp;&emsp;# Entry point for application<br/>
+└─── config&emsp;&emsp;&emsp;&emsp;# Application environment variables and secrets<br/>
+└─── controllers&emsp;&emsp;# Express controllers for routes, respond to client requests, call services<br/>
+└─── loaders&emsp;&emsp;&emsp;&ensp;# Handles all startup processes<br/>
+└─── middlewares&emsp;# Operations that check or manipulate request prior to controller utilizing<br/>
+└─── models&emsp;&emsp;&emsp;&ensp;# Database models<br/>
+└─── routes&emsp;&emsp;&emsp;&ensp;&ensp;# Express routes that define API structure<br/>
+└─── services&emsp;&emsp;&emsp;# Encapsulates all business logic<br/>
+└─── test&emsp;&emsp;&emsp;&emsp;&emsp;# Tests go here<br/>
+└─── utils&emsp;&emsp;&emsp;&emsp;&ensp;# App utilities
