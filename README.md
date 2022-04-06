@@ -2,7 +2,7 @@
 src<br/>
 └─── app.js&emsp;&emsp;&emsp;&emsp;# Entry point for application<br/>
 └─── config&emsp;&emsp;&emsp;&emsp;# Application environment variables and secrets<br/>
-└─── interfaces&emsp;&emsp;&emsp;&emsp;# Application interfaces<br/>
+└─── interfaces&emsp;&emsp;&emsp;# Application interfaces<br/>
 └─── controllers&emsp;&emsp;# Express controllers for routes, respond to client requests, call services<br/>
 └─── loaders&emsp;&emsp;&emsp;&ensp;# Handles all startup processes<br/>
 └─── middlewares&emsp;# Operations that check or manipulate request prior to controller utilizing<br/>
