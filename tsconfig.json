@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"typeRoots": ["@types", "node_modules/@types"],
+		"esModuleInterop": true,
+		"lib": ["es2020"],
+		"module": "commonjs",
+		"target": "es2020",
+		"outDir": "build",
+		"strict": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": ["errors.log"],
+}
